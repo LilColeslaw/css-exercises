@@ -71,12 +71,6 @@ button.cancel {
   color: royalblue;
 }
 
-.middle {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
 .con-can {
   display: flex;
   justify-content: flex-start;
@@ -86,4 +80,11 @@ button.cancel {
 .header {
   font-weight: bold;
   font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
